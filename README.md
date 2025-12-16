@@ -3,11 +3,11 @@
 A complete Docker Compose demo showing **Redpanda Data Migrator** in action, migrating data from a source Kafka cluster to a target Redpanda cluster.
 
 This demo showcases:
-- ✅ **Auto topic creation** with matching partition counts
-- ✅ **Schema Registry migration**
-- ✅ **Compacted topic migration** (preserving cleanup policies)
-- ✅ **Consumer offset migration**
-- ✅ **Real-time data streaming**
+- **Auto topic creation** with matching partition counts
+- **Schema Registry migration**
+- **Compacted topic migration** (preserving cleanup policies)
+- **Consumer offset migration**
+- **Real-time data streaming**
 
 ## Architecture
 
@@ -140,11 +140,11 @@ make verify
 ```
 
 Run anytime to verify:
-- ✅ All topics migrated
-- ✅ Partition counts match
-- ✅ Message counts match
-- ✅ Cleanup policies preserved (`compact`, `compact,delete`)
-- ✅ Schemas migrated
+- All topics migrated
+- Partition counts match
+- Message counts match
+- Cleanup policies preserved (`compact`, `compact,delete`)
+- Schemas migrated
 
 ## Available Commands
 
@@ -196,7 +196,7 @@ Prometheus metrics including:
 
 ## What Gets Migrated?
 
-### ✅ Automatically Migrated
+### Automatically Migrated
 
 - **Topic data** - All messages with keys, headers, timestamps
 - **Partition counts** - Target topics match source partition count
@@ -290,11 +290,11 @@ make clean
 ```
 
 This demonstrates the full continuous replication workflow including:
-- ✅ Real-time data migration with sustained load
-- ✅ Continuous schema replication (10s interval)
-- ✅ Automatic cleanup policy preservation
-- ✅ Consumer offset migration
-- ✅ Real-time lag monitoring
+- Real-time data migration with sustained load
+- Continuous schema replication (10s interval)
+- Automatic cleanup policy preservation
+- Consumer offset migration
+- Real-time lag monitoring
 
 ### Scenario 2: Verify Compacted Topics
 
