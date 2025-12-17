@@ -23,7 +23,7 @@ This demo showcases:
 │  │  Port: 19092     │                               │           │
 │  │  Schema: 18081   │                               ▼           │
 │  └──────────────────┘                       ┌──────────────────┐│
-│                                              │ Target Cluster  ││
+│                                             │  Target Cluster  ││
 │  ┌──────────────────┐                       │   (Redpanda)     ││
 │  │ Redpanda Console │◄──────────────────────│                  ││
 │  │  Port: 8080      │                       │  Port: 29092     ││
