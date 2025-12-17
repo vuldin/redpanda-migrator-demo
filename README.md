@@ -18,7 +18,7 @@ This demo showcases:
 │                                                                 │
 │  ┌──────────────────┐        ┌──────────────────┐               │
 │  │  Source Cluster  │───────>│ Redpanda Migrator│───┐           │
-│  │  (Kafka-compat)  │        │   (Connect 4.37) │   │           │
+│  │  (Kafka-compat)  │        │ (Connect 4.75.1) │   │           │
 │  │                  │        └──────────────────┘   │           │
 │  │  Port: 19092     │                               │           │
 │  │  Schema: 18081   │                               ▼           │
